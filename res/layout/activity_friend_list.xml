@@ -8,7 +8,8 @@
         android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:divider="@dimen/activity_horizontal_margin" >
+        android:divider="@dimen/activity_horizontal_margin"
+        android:entries="@string/hello_world" >
 
     </ListView>
 
