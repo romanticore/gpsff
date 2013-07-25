@@ -115,16 +115,17 @@ public class MainFinderActivity extends ActionBarActivity {
         actionBar.setDisplayShowTitleEnabled(false);
 
         ActionBar.Tab tab = actionBar.newTab()
+                .setText(R.string.action_home)
+                .setTabListener(new TabListener<MapFragment>(
+                        this, "map", MapFragment.class));
+        actionBar.addTab(tab);
+        
+        tab = actionBar.newTab()
                            .setText(R.string.action_home)
-                           .setTabListener(new TabListener<MapActivity>(
-                                   this, "map", MapActivity.class));
+                           .setTabListener(new TabListener<MapFragment>(
+                                   this, "map", MapFragment.class));
         actionBar.addTab(tab);
 
-        tab = actionBar.newTab()
-                .setText(R.string.action_search)
-                .setTabListener(new TabListener<FriendListFragment>(
-                        this, "list", FriendListFragment.class));
-        actionBar.addTab(tab);        
         
         tab = actionBar.newTab()
                        .setText(R.string.action_search)

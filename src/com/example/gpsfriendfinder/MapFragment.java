@@ -1,10 +1,10 @@
 package com.example.gpsfriendfinder;
 
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.*;
 
-public class MapActivity extends Fragment 
+public class MapFragment extends Fragment 
 {
 	
 	@Override

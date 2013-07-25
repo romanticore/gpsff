@@ -16,8 +16,16 @@
 		<FrameLayout		    
 		     android:layout_width="match_parent" 
 		     android:layout_height="match_parent">
-		    <fragment class="com.example.gpsfriendfinder.MapActivity"
+		    <fragment class="com.example.gpsfriendfinder.MapFragment"
 		            android:id="@+id/mapactivity"
+		            android:layout_width="match_parent" android:layout_height="match_parent" />
+		</FrameLayout>
+		
+		<FrameLayout		    
+		     android:layout_width="match_parent" 
+		     android:layout_height="match_parent">
+		    <fragment class="com.example.gpsfriendfinder.FriendListFragment"
+		            android:id="@+id/friendlist"
 		            android:layout_width="match_parent" android:layout_height="match_parent" />
 		</FrameLayout>
 	    

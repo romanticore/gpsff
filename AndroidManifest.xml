@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.gpsfriendfinder.MapActivity"
+            android:name="com.example.gpsfriendfinder.MapFragment"
             android:label="@string/title_activity_map"
             android:parentActivityName="android.app.NativeActivity" >
             <meta-data
