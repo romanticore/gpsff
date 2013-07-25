@@ -1,0 +1,26 @@
+<!-- xmlns:app="http://schemas.android.com/apk/res/com.example.gpsfriendfinder" -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainframe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    tools:context=".MainFinderActivity" >
+
+	<ViewGroup
+	    android:id="@+id/main_view_group"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" >
+	    
+		<FrameLayout		    
+		     android:layout_width="match_parent" 
+		     android:layout_height="match_parent">
+		    <fragment class="com.example.gpsfriendfinder.MapActivity"
+		            android:id="@+id/mapactivity"
+		            android:layout_width="match_parent" android:layout_height="match_parent" />
+		</FrameLayout>
+	    
+	</ViewGroup>
+	
+</FrameLayout>

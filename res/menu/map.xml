@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:id="@+id/action_home"
+         android:icon="@drawable/house"
+         android:title="@string/action_home" android:showAsAction="always|withText"/>
+   <item android:id="@+id/action_search"
+         android:icon="@drawable/magnifier"
+         android:title="@string/action_search" android:showAsAction="ifRoom|withText"/>
+   <item android:id="@+id/action_list"
+         android:icon="@drawable/attributes_display"
+         android:title="@string/action_list" android:showAsAction="ifRoom|withText"/>
+</menu>
